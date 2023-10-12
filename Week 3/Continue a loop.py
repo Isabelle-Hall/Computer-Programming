@@ -11,3 +11,10 @@ for grade in grades:
 
 print("average pass mark was", total/passes)
 
+numbers = [10, 20, 30, 90, 200, 30, 22, 11]
+for number in numbers:
+    print(number)
+    if number >100:
+        break
+else:
+    print("All numbers processed")
