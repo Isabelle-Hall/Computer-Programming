@@ -9,6 +9,7 @@ print(val)
 middle = surname[1:4]
 print(middle) #prints from the second letter to the third, mit is printed
 #the second number is always one less thn given, so 4 would give the 3rd letter
+
 copy = surname[:] #prints whole name
 tail = surname[1:] #prints from second letter to the end
 butlast = surname[:4] #print all letters but the last
