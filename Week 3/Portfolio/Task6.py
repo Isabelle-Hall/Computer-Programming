@@ -4,3 +4,8 @@
 # 1 x 7 = 7
 # 2 x 7 = 14
 # and so on.
+
+print("Seven Times Table")
+number = 7
+for count in range (0,13):
+    print(number,"x",count,"=",number*count)
